@@ -11,7 +11,7 @@ font-family: 'Nunito Sans', sans-serif;
  }
  .phonerow{
     background-color: black;
-    width: 40%;
+    width: 35%;
     border: 2px solid black;
     border-radius: 5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../Assets/floatingwater.jpeg');
@@ -48,4 +48,19 @@ font-family: 'Nunito Sans', sans-serif;
     height: 0.9rem;
     margin-left: 2px;
 
+}
+
+.weatherrow{
+    padding-top: 20%;
+}
+
+.weathertext{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+.cloudy{
+    width: 4.5rem;
 }

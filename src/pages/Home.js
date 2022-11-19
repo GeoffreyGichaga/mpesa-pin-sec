@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container'
-import React from 'react'
 // import Button  from 'react-bootstrap/Button'
-// import { useNavigate } from 'react-router'
+import { useNavigate } from 'react-router'
 import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
 import '../styling/home.css'
@@ -29,7 +28,8 @@ import opera from '../Assets/opera.png'
 
 
 const Home = () => {
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
+
 
 
   const time = new Date()
@@ -39,12 +39,16 @@ const Home = () => {
   const nairobiWeather ="https://www.google.com/search?q=weather+nairobi&oq=weather+&aqs=chrome.3.69i57j35i39j0i131i433i512l3j0i131i433i457i512j69i60l2.4133j0j4&sourceid=chrome&ie=UTF-8"
 
 
+
+  
+  const openToolkit = ()=>{
+    navigate('/toolkit')
+  }
   
 
   return (
     <>
     <h1>Home page</h1>
-    {/* <h3 onClick={()=> navigate('/menu')} >menu</h3> */}
     <Container className='cont'>
       <Row  className='phonerow'>
         {/* NavBar */}
@@ -125,10 +129,10 @@ const Home = () => {
 
 
 
-            <div className='ms-2'>
+            <div onClick={openToolkit}  className='ms-2'>
               <img src={sim} className='saficon ms-4' alt='store'/>
               <p className='apptext ms-4'>Safricom</p>
-
+            
             </div>
           </div>
 

@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container'
 import React from 'react'
-import Button  from 'react-bootstrap/Button'
-import { useNavigate } from 'react-router'
+// import Button  from 'react-bootstrap/Button'
+// import { useNavigate } from 'react-router'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+// import Col from 'react-bootstrap/Col'
 import '../styling/home.css'
 
 
@@ -12,10 +12,11 @@ import network2 from '../Assets/networksignal.png'
 
 import cloudy from '../Assets/cloudy.png'
 
-
+import search from '../Assets/search.png'
+import googlevoice from '../Assets/googlevoice.png'
 
 const Home = () => {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
 
   const time = new Date()
@@ -67,6 +68,30 @@ const Home = () => {
 
         {/* Google Search Bar */}
         <Row>
+
+        <div className='googlesearch d-flex mt-4 ms-3'>
+          <img src={search} className='gicon mt-2 mb-2' alt='google'/>
+          {/* <img src={googlevoice} className='gvoice' alt='gvoice'/>
+          <img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png' className='lens' alt='g'/> */}
+
+
+          
+          
+
+          <div className='voicelens d-flex justify-content-center'>
+            <img src={googlevoice} className='gvoice ms-2 w-25' alt='gvoice'/>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png' className='lens' alt='g'/>
+          </div>
+
+
+        </div>
+
+
+
+
+
+          
+
           
         </Row>
 

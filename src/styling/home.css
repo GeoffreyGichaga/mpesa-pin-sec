@@ -11,7 +11,7 @@ font-family: 'Nunito Sans', sans-serif;
  }
  .phonerow{
     background-color: black;
-    width: 35%;
+    width: 30%;
     border: 2px solid black;
     border-radius: 5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../Assets/floatingwater.jpeg');
@@ -63,4 +63,35 @@ font-family: 'Nunito Sans', sans-serif;
 
 .cloudy{
     width: 4.5rem;
+}
+
+
+/* Google Search bar */
+
+.googlesearch{
+    border-radius: 50px;
+    background-color: gray;
+    opacity: 0.7;
+    
+}
+
+.gicon{
+    width: 5%;
+    height: auto;
+}
+
+
+.voicelens{
+    margin-left: 60%;
+}
+
+
+.gvoice{
+    width: 23%;
+    height: auto;
+}
+
+.lens{
+    width: 23%;
+    height: auto;
 }

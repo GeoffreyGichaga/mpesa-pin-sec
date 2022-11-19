@@ -103,19 +103,24 @@ font-family: 'Nunito Sans', sans-serif;
 .storeicon{
     width: 35%;
     height: auto;
+    margin-top: 5.5px;
+
 }
 
 .galleryicon{
     width: 55%;
     height: auto;
+    margin-top: 5.5px;
+
 }
 
 .playicon{
-    width: 67%;
+    width: 65%;
     height: auto;
+    margin-top: 5.5px;
 }
 .saficon{
-    width: 45%;
+    width: 63%;
     height: auto;
 }
 
@@ -125,4 +130,51 @@ font-family: 'Nunito Sans', sans-serif;
     font-size: 10pt;
 
 
+}
+
+
+
+.dots{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 50pt;
+    border-radius: 50px;
+
+}
+
+
+.phone1{
+    width: 90%;
+    height: auto;
+    margin-left: 3%;
+
+}
+
+.message{
+    width: 90%;
+    height: auto;
+    margin-left: 50%;
+
+}
+
+
+
+.browser{
+    width: 100%;
+    height: auto;
+    margin-left: 130%;
+
+}
+
+.camera{
+    width: 90%;
+    height: auto;
+    margin-left: 95%;
+
+}
+
+
+
+.homeapps{
+    margin-left: 3%;
 }

@@ -19,7 +19,14 @@ import googlevoice from '../Assets/googlevoice.png'
 import store from '../Assets/store.png'
 import gallery from '../Assets/gallery.png'
 import playstore from '../Assets/playstore.png'
-import saf from '../Assets/saf.webp'
+import sim from '../Assets/sim.png'
+
+
+import camera from '../Assets/camera.png'
+import message from '../Assets/message.png'
+import apple from '../Assets/apple.png'
+import opera from '../Assets/opera.png'
+
 
 const Home = () => {
   // const navigate = useNavigate()
@@ -30,7 +37,6 @@ const Home = () => {
   const exactTime = currentTime.slice(0,-6)
 
   const nairobiWeather ="https://www.google.com/search?q=weather+nairobi&oq=weather+&aqs=chrome.3.69i57j35i39j0i131i433i512l3j0i131i433i457i512j69i60l2.4133j0j4&sourceid=chrome&ie=UTF-8"
-
 
 
   
@@ -62,7 +68,7 @@ const Home = () => {
 
 
         {/* Weather Icon  */}
-        <Row className='weatherrow'>
+        <Row className='weatherrow mt-5'>
           <div className='ms-5'>
             <img className='cloudy' src={cloudy} alt='weather'/>
 
@@ -113,20 +119,50 @@ const Home = () => {
 
             <div>
               <img src={playstore} className='playicon ms-3' alt='store'/>
-              <p className='apptext ms-1'>Playstore</p>
+              <p className='apptext ms-2'>Playstore</p>
 
             </div>
 
 
 
             <div className='ms-2'>
-              <img src={saf} className='saficon ms-4' alt='store'/>
-              <p className='apptext ms-2'>MySafricom</p>
+              <img src={sim} className='saficon ms-4' alt='store'/>
+              <p className='apptext ms-4'>Safricom</p>
 
             </div>
           </div>
 
 
+        </Row>
+
+        
+        {/* Space between taskbar apps  */}
+
+        <Row>
+          <p className='dots text-center'>.  .  .</p>
+        </Row>
+       
+        <Row>
+          <div className='homeapps d-flex'>
+            <div>
+              <img src={apple} className='phone1' alt='phone'/>
+            </div>
+
+            <div>
+              <img src={message} className='message' alt='phone'/>
+            </div>
+            <div>
+              <img src={camera} className='camera' alt='phone'/>
+            </div>
+            
+
+            <div>
+              <img src={opera} className='browser' alt='phone'/>
+            </div>
+           
+
+           
+          </div>
         </Row>
 
 

@@ -31,6 +31,7 @@ font-family: 'Nunito Sans', sans-serif;
 .time{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
+    color: white;
 
 }
 
@@ -94,4 +95,34 @@ font-family: 'Nunito Sans', sans-serif;
 .lens{
     width: 23%;
     height: auto;
+}
+
+
+
+
+.storeicon{
+    width: 35%;
+    height: auto;
+}
+
+.galleryicon{
+    width: 55%;
+    height: auto;
+}
+
+.playicon{
+    width: 67%;
+    height: auto;
+}
+.saficon{
+    width: 45%;
+    height: auto;
+}
+
+.apptext{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 10pt;
+
+
 }

@@ -15,6 +15,12 @@ import cloudy from '../Assets/cloudy.png'
 import search from '../Assets/search.png'
 import googlevoice from '../Assets/googlevoice.png'
 
+
+import store from '../Assets/store.png'
+import gallery from '../Assets/gallery.png'
+import playstore from '../Assets/playstore.png'
+import saf from '../Assets/saf.webp'
+
 const Home = () => {
   // const navigate = useNavigate()
 
@@ -86,13 +92,41 @@ const Home = () => {
 
         </div>
 
-
-
-
-
           
+        </Row>
 
-          
+        {/* Application Icons  */}
+        <Row className='mt-5'>
+          <div className='d-flex justify-content-start'>
+            <div>
+              <img src={store} className='storeicon ms-3' alt='store'/>
+              <p className='apptext'>Galaxy Store</p>
+
+            </div>
+
+            <div>
+              <img src={gallery} className='galleryicon' alt='store'/>
+              <p className='apptext'>Gallery</p>
+
+            </div>
+
+
+            <div>
+              <img src={playstore} className='playicon ms-3' alt='store'/>
+              <p className='apptext ms-1'>Playstore</p>
+
+            </div>
+
+
+
+            <div className='ms-2'>
+              <img src={saf} className='saficon ms-4' alt='store'/>
+              <p className='apptext ms-2'>MySafricom</p>
+
+            </div>
+          </div>
+
+
         </Row>
 
 

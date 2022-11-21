@@ -16,16 +16,24 @@ const MpesaMenu = () => {
       <Container>
       <Row  className='toolkitrow'>
         {/* NavBar */}
-        <Row className='navrow'>
+        <Row className='mpesarow'>
           <h3 className='titles mt-2 mb-5'>Safaricom</h3>
 
           <h6 className='titles2 mt-2 mb-2'>SIM Toolkit</h6>
 
 
 
-          <a href='#' onClick={()=>setError(true) } className='titles mt-4'>Send Money</a>
+          <a href='#'  className='titles mt-4'>Send Money</a>
           <hr className='hr'/>
-          <a href='#' onClick={()=>setError(true) } className='titles mt-2'>Widraw Cash</a>
+          <a href='#'  className='titles mt-2'>Withdraw Cash</a>
+          <hr className='hr'/>
+          <a href='#' onClick={()=>setError(true) } className='titles mt-2'>Buy Airtime </a>
+          <hr className='hr'/>
+          <a href='#' onClick={()=>setError(true) } className='titles mt-2'>Loans and Savings </a>
+          <hr className='hr'/>
+          <a href='#' onClick={()=>setError(true) } className='titles mt-2'> Lipa na M-PESA </a>
+          <hr className='hr'/>
+          <a href='#' onClick={()=>setError(true) } className='titles mt-2'> My Account </a>
           <hr className='hr'/>
 
 

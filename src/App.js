@@ -3,17 +3,20 @@ import { Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import Menu from './pages/Menu'
 import Toolkit from './pages/Toolkit';
-import Safaricom from './components/Safaricom';
-import Mpesa from './components/Mpesa';
+import SafMenu from './pages/SafMenu';
+import MpesaMenu from './pages/MpesaMenu';
+
+
+
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/menu' element={<Menu/>}/>
-      <Route path='/toolkit' element={<Toolkit/>}>
-        <Route path='safaricom' element={<Safaricom/>}/>
-        <Route path='mpesa' element={<Mpesa/>}/>
-      </Route>
+      <Route path='/toolkit' element={<Toolkit/>}/>
+      <Route path='safmenu' element={<SafMenu/>}/>
+      <Route path='mpesamenu' element={<MpesaMenu/>}/>
+      
 
       
     </Routes>

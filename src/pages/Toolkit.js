@@ -30,9 +30,9 @@ const Toolkit = () => {
           <h3 className='titles mt-2 mb-5'>Safaricom</h3>
 
 
-          <a href='#' className='titles mt-4'>Safaricom+</a>
+          <a href='/safmenu' className='titles mt-4'>Safaricom+</a>
           <hr className='hr'/>
-          <a href='#' className='titles mt-2'>M-PESA</a>
+          <a href='/mpesamenu' className='titles mt-2'>M-PESA</a>
           <hr className='hr'/>
 
 

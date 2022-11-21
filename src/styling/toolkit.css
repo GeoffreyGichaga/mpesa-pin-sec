@@ -40,7 +40,12 @@ font-family: 'Nunito Sans', sans-serif;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 17pt;
+    text-decoration: none;
 
+}
+
+.titles:hover{
+    color: white;
 }
 
 

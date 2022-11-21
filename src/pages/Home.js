@@ -131,7 +131,7 @@ const Home = () => {
 
             <div onClick={openToolkit}  className='ms-2'>
               <img src={sim} className='saficon ms-4' alt='store'/>
-              <p className='apptext ms-4'>Safricom</p>
+              <p className='apptext ms-4'>Safaricom</p>
             
             </div>
           </div>

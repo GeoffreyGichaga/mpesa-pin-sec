@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
-import Alert from 'react-bootstrap/Alert'
 import '../styling/mpesamenu.css'
 
 import Error from '../components/Error'
@@ -23,17 +22,18 @@ const MpesaMenu = () => {
 
 
 
-          <a href='#'  className='titles mt-4'>Send Money</a>
+          <a href='/enternumber'  className='titles mt-4'>Send Money</a>
           <hr className='hr'/>
-          <a href='#'  className='titles mt-2'>Withdraw Cash</a>
+          <p className='titles mt-2'>Withdraw Cash</p>
           <hr className='hr'/>
-          <a href='#' onClick={()=>setError(true) } className='titles mt-2'>Buy Airtime </a>
+
+          <p href='#' onClick={()=>setError(true) } className='titles mt-2'>Buy Airtime </p>
           <hr className='hr'/>
-          <a href='#' onClick={()=>setError(true) } className='titles mt-2'>Loans and Savings </a>
+          <p href='#' onClick={()=>setError(true) } className='titles mt-2'>Loans and Savings </p>
           <hr className='hr'/>
-          <a href='#' onClick={()=>setError(true) } className='titles mt-2'> Lipa na M-PESA </a>
+          <p href='#' onClick={()=>setError(true) } className='titles mt-2'> Lipa na M-PESA </p>
           <hr className='hr'/>
-          <a href='#' onClick={()=>setError(true) } className='titles mt-2'> My Account </a>
+          <p href='#' onClick={()=>setError(true) } className='titles mt-2'> My Account </p>
           <hr className='hr'/>
 
 

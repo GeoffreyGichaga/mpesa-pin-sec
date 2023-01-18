@@ -5,6 +5,7 @@ import Menu from './pages/Menu'
 import Toolkit from './pages/Toolkit';
 import SafMenu from './pages/SafMenu';
 import MpesaMenu from './pages/MpesaMenu';
+import EnterNo from './pages/EnterNO';
 
 
 
@@ -14,8 +15,9 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/menu' element={<Menu/>}/>
       <Route path='/toolkit' element={<Toolkit/>}/>
-      <Route path='safmenu' element={<SafMenu/>}/>
-      <Route path='mpesamenu' element={<MpesaMenu/>}/>
+      <Route path='/safmenu' element={<SafMenu/>}/>
+      <Route path='/mpesamenu' element={<MpesaMenu/>}/>
+      <Route path='/enternumber' element={<EnterNo/>}/>
       
 
       

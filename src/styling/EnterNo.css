@@ -2,7 +2,25 @@
 
 
 
-.phonerow{
-    width: 50%;
 
+
+
+
+.enter-title {
+    color: white;
+
+}
+.digits-title{
+    color: white;
+}
+
+#input-space{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(30, 133, 188);
+    border-radius: 0;
+}
+
+.ok-btn{
+    background-color: rgb(84, 83, 83);
 }

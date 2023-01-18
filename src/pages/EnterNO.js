@@ -1,73 +1,60 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
-import Row from 'react-bootstrap/Container'
-import '../styling/EnterNo.css'
+import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 
+import '../styling/mpesamenu.css'
+import dots from "../Assets/dots.png"
+import '../styling/EnterNo.css'
+
+import Form from 'react-bootstrap/Form'
+import InputGroup from 'react-bootstrap/InputGroup'
+import Button from 'react-bootstrap/Button'
 
 
-const EnterNo = () => {
+const EnterNO = () => {
+
   return (
     <>
-    <h1>Mpesa menu</h1>
+      <h1>Mpesa menu</h1>
 
       <Container>
-      <Row  className='phonerow'>
+      <Row  className='toolkitrow'>
         {/* NavBar */}
+
         <Row>
-          
+          <Col className='d-flex justify-content-start'>
+            <h3 className='titles mt-2 mb-5'>Safaricom</h3>
+          </Col>
+
+        
+
+        
         </Row>
-
-
-
-
-
-
 
 
         <Row className='mpesarow'>
-          <Col lg={6}>
-          <h3 className='titles mt-2 mb-5'>Safaricom</h3>
-
-          <h6 className='titles2 mt-2 mb-2'>SIM Toolkit</h6>
-
-
-
-          <a href='/enternumber'  className='titles mt-4'>Send Money</a>
-          <hr className='hr'/>
-          <p className='titles mt-2'>Withdraw Cash</p>
-          <hr className='hr'/>
-          </Col>
-
+          <p className='enter-title text-center'>Enter phone no.</p>
+          <Form.Label className='digits-title' htmlFor="basic-url">Digits(0-9,*,#,+) 10 - 13</Form.Label>
+          <InputGroup className="mb-3">
           
+            <Form.Control id="input-space" aria-describedby="basic-addon3" />
+          </InputGroup> 
+          <Button className='ok-btn'>OK</Button>
+            
 
 
-          
+
+
+       
         </Row>
 
         
-        
-
-
-
-
-
-        
-
-
-        
-
-        
-       
-        
-
-
-
 
       </Row>
       </Container>
-    </>
+      </>
   )
 }
 
-export default EnterNo
+export default EnterNO

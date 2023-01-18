@@ -33,15 +33,15 @@ const EnterNO = () => {
         </Row>
 
 
-        <Row className='mpesarow'>
+        <Row className='mpesarow2'>
           <p className='enter-title text-center'>Enter phone no.</p>
           <Form.Label className='digits-title' htmlFor="basic-url">Digits(0-9,*,#,+) 10 - 13</Form.Label>
           <InputGroup className="mb-3">
           
-            <Form.Control id="input-space" aria-describedby="basic-addon3" />
+            <Form.Control id="input-space" type='number' aria-describedby="basic-addon3" />
           </InputGroup> 
           <div className='d-flex justify-content-center'>
-          <Button id='ok-btn'>OK</Button>
+            <Button id='ok-btn'>OK</Button>
           </div>
             
 

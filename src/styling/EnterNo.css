@@ -4,7 +4,9 @@
 
 
 
-
+#phone-page{
+    height: 43rem;
+}
 
 .enter-title {
     color: white;
@@ -14,12 +16,20 @@
     color: white;
 }
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #input-space{
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgb(30, 133, 188);
     border-radius: 0;
     color: white;
+
 
 }
 #input-space:focus{
@@ -29,7 +39,9 @@
     border-bottom: 2px solid rgb(30, 133, 188);
 
 
+
 }
+
 
 #ok-btn{
     background-color: rgb(84, 83, 83);
@@ -38,3 +50,6 @@
     border: none;
 }
 
+.mpesarow2{
+    margin-bottom: 26rem;
+}

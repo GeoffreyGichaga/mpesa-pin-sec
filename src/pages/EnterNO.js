@@ -40,7 +40,9 @@ const EnterNO = () => {
           
             <Form.Control id="input-space" aria-describedby="basic-addon3" />
           </InputGroup> 
-          <Button className='ok-btn'>OK</Button>
+          <div className='d-flex justify-content-center'>
+          <Button id='ok-btn'>OK</Button>
+          </div>
             
 
 

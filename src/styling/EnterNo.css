@@ -19,8 +19,22 @@
     border: none;
     border-bottom: 2px solid rgb(30, 133, 188);
     border-radius: 0;
+    color: white;
+
+}
+#input-space:focus{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(30, 133, 188);
+
+
 }
 
-.ok-btn{
+#ok-btn{
     background-color: rgb(84, 83, 83);
+    padding: 5px 30px 5px 30px;
+    border-radius: 50px;
+    border: none;
 }
+
